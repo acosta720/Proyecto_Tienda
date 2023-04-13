@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 ene. 2023, 20:07:45
+    Author     : fabian
+*/
+/* 
+   box-sizing: conten-box y border-box
+*/
+.block{
+    background-color: aquamarine;
+    border: 10px solid blue;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 50px;
+}
+.static{
+  position:static ;  
+   border: 3px solid skyblue;
+   top: 400px;
+   left: 500px ;
+    
+}
+.relative{
+  position:relative ;  
+   border: 3px solid skyblue;
+   top: 0px;
+   left: 400px ;
+    width: 300px;
+    height: 300px;
+}
+ .fixed{
+  position:fixed ;  
+   border: 3px solid orangered;
+   top: 0px;
+   left: 50px ;
+    width: 100px;
+    height: 100px;
+}
+ .absolute{
+  position:relative ;  
+   border: 3px solid skyblue;
+   top: 80px;
+   left: 50px ;
+    width: 100px;
+    height: 100px;
+}
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: coral ;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+a{
+    display: block;
+}
