@@ -47,7 +47,7 @@ public SegurityConfig(UserService userPrincipalDetailsService){
  protected void configure(AuthenticationManagerBuilder auth){
   auth.authenticationProvider(authenticationProvicer());
 }
- //El siguiente metodo funciona para hacer la autenticación del usuario
+ //Este metodo hace la autenticación del usuario
  @Override
  protected void configure(HttpSecurity http)throws Exception{
     http.authorizeRequests().antMatchers("/persona","/login").hasRole("ADMIN").antMatchers("/personaN","/persona","/","/login")
